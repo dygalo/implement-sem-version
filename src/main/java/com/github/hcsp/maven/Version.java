@@ -32,10 +32,8 @@ public class Version {
             }
         }
         return 0;
-
+//我这里该怎么改呢？
     }
-
-    //确保输入的格式统一调整为x.y.z
     public static List<String> fixVersion(String version) {
         List<String> fixList = Arrays.asList(version.split("\\."));
         while ((fixList.size() < 3)) {
